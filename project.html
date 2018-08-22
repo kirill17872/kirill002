@@ -5,18 +5,21 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Собери ПК сам!</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
         <style type="text/css">
+        body {
+          background-color: black;
+        }
             #menu
             {
             border:1px solid black; 
-            color:white;
+            color:rgb(5, 5, 5);
             width:178px;
             padding:6px;
             margin:0px;
-            background-color:#006064;
+            background-color:#fa7203;
             font-size:1.1em;
             }
             #list
@@ -32,16 +35,16 @@
             {
             padding:6px;
             border-bottom-style:solid;
-            border-bottom-color:white;
+            border-bottom-color: black;
             border-width:1px;
-            background-color:#ffd273;
+            background-color:#fdfdf5;
             }
             #img
             {
             margin:0px;
             }
             .bg-yellow {
-              background-color: yellow;
+              background-color: rgb(40, 3, 248);
             }
             </style>
             <script type="text/javascript">   
@@ -49,8 +52,8 @@
                 
                    $("#menu").click(function(){ $("#list").slideToggle(200)});
 
-                   $("#menu").mouseover(function(){ $("#menu").css("background-color","#01939a")});
-                   $("#menu").mouseout(function(){ $("#menu").css("background-color","#006064")});
+                  
+                   
                 
                 });                           
                 </script>                       
@@ -84,7 +87,7 @@
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
                       </form>
                     </div>
                   </nav>
@@ -112,8 +115,8 @@
                       <img class="card-img-top" src="videokarta-nvidia-geforce-gtx-1070-ti-msi-twinfrozr-vi-pci-e-8192mb-gtx-1070-ti-gaming-x-8g-2.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Видеокарта MSI nVidia GeForce GTX 1070</h5>
-                          <p class="card-text">Видеокарта MSI GTX1070 GAMING X 8G - отличная замена топовым видеоадаптерам NVIDIA прошлой серии. Это оптимальное устройство для высокопроизводительной сборки, оно имеет ряд важных улучшений для оптимизации производительности в VR. Данная модель может похвастаться эффективной системой охлаждения, не позволяющей карте перегреваться. К видеокарте можно подключить до 4 мониторов, при этом вас непременно порадует разрешение изображения на экране.</p>
-                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                          <p class="card-text">Видеокарта MSI GTX1070 GAMING X 8G - отличная замена топовым видеоадаптерам NVIDIA прошлой серии.</p>
+                          <a href="https://www.google.ru/search?newwindow=1&rlz=1C1CHBD_ruRU807RU807&tbm=shop&q=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B&tbs=vw:l,mr:1,price:1,ppr_min:80000,ppr_max:200000&sa=X&ved=0ahUKEwjtjNq10IDdAhXINJoKHV4SCB0QvSsIigIoAw&biw=1536&bih=710#spd=13495163668012024560" class="btn btn-primary">Узнать больше!</a>
                       </div>
                   </div>
               </div>
@@ -132,7 +135,7 @@
                       <img class="card-img-top" src="1019498322.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">ASUS Radeon RX 570 (EX-RX570-O8G) 8192MB</h5>
-                          <p class="card-text">Прежде всего, следует отметить реализацию системы охлаждения, получившую название DirectCU II. Данная технология может похвастаться высокой эффективностью за счет вентиляторов с оптимизированной геометрией крыльчатки. При этом уровень шума, производимого видеокартой, остается на низком уровне. Высокое качество используемых компонентов и, как следствие, их долговечность - заслуга полностью автоматизированного процесса производства (технология Auto-Extreme), который соответствует более строгим экологическим нормам за счет устранения вредных химических веществ и уменьшения энергопотребления на 50%. Видеокарта поддерживает 3D-очки и высококачественные 4K-экраны, а также устраняет неприятный эффект "разрыва" картинки благодаря знаменитой технологии FreeSync. Используя утилиту GPU Tweak II, вы сможете более точно настроить параметры видеокарты под стать той или иной игре..</p>
+                          <p class="card-text">Прежде всего, следует отметить реализацию системы охлаждения, получившую название DirectCU II.</p>
                           <a href="article.html" class="btn btn-primary">Узнать больше!</a>
                       </div>
                   </div>
@@ -142,7 +145,7 @@
                       <img class="card-img-top" src="385651.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Видеокарта GeForce GTX 1060 </h5>
-                          <p class="card-text">Видеокарта GeForce GTX 1060 создана на основе архитектуры NVIDIA Pascalamptrade, самой технически продвинутой архитектуры GPU из когда-либо созданных. Она обеспечивает высочайшую производительность, которая открывает дорогу к VR-играм и другим возможностям..</p>
+                          <p class="card-text">Видеокарта GeForce GTX 1060 создана на основе архитектуры NVIDIA Pascalamptrade, самой технически продвинутой архитектуры GPU из когда-либо созданных.</p>
                           <a href="article.html" class="btn btn-primary">Узнать больше!</a>
                       </div>
                   </div>
@@ -152,7 +155,77 @@
                       <img class="card-img-top" src="50dd1daa745133e95d57ec734844f38b750354d3c791442668988888634d974c.jpg" alt="Card image cap">
                       <div class="card-body">
                           <h5 class="card-title">Видеокарта Palit nVidia GeForce GTX 1080 Ti [NEB108T019LC-1021F]</h5>
-                          <p class="card-text">Разъём DVI: ; Модель: GeForce GTX 1080 Ti PA-GTX1080TI 11G; Разъём HDMI: есть; Выход DisplayPort: есть; Частота графического процессора - МГц: 1480; Количество потоковых процессоров: 3584; Объем видеопамяти: 11264Mb; Поддержка API: OpenGL 4.5\DirectX 12; Частота видеопамяти - МГц: 11010; Максимальное поддерживаемое разрешение: 7680x4320; Интерфейс подключения: PCI-E 16x 3.0; Порты вывода изображения: HDMI - 3 x DisplayPort; Выход VGA: ; Разъёмы дополнительного питания видеокарты - pin: 8+6; Особенности системы охлаждения: Двухслотовая система охлаждения; Требования к блоку питания: 600 Вт; Особенности: Частота графического процессора Boost Clock 1582MHz</p>
+                          <p class="card-text">Разъём DVI: ; Модель: GeForce GTX 1080 Ti PA-GTX1080TI 11G; Разъём HDMI: есть; Выход DisplayPort: есть; Частота графического процессора - МГц: 1480; Объем видеопамяти: 11264Mb; Поддержка API: OpenGL 4.5\DirectX 12; Частота видеопамяти - МГц: 11010 </p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="850072.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Видеокарта ASUS nVidia GeForce GTX 1060 , STRIX-GTX1060-O6G-GAMING</h5>
+                          <p class="card-text">Видеокарта ROG Strix GTX 1060 это геймерская модель, оснащенная множеством эксклюзивных технологий ASUS. Используемая на ней система охлаждения DirectCU III может похвастать высокой эффективностью за счет вентиляторов.</p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="Видеокар.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Видеокарта GIGABYTE nVidia GeForce GT 730 , GV-N730D5OC-1GI</h5>
+                          <p class="card-text">Видеокарта GT 730 также обеспечивает в 3 раза более высокую производительность в играх, чем встроенная графика, при этом гарантируя надежность и стабильность работы.</p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="images.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Видеокарта Sapphire Radeon R5 230 625Mhz PCI-E 2.1 2048Mb 1334Mhz 64 bit DVI HDMI HDCP Retail</h5>
+                          <p class="card-text">Видеокарта Sapphire Radeon R5 230 625Mhz PCI-E 2.1 2048Mb 1334Mhz 64 bit DVI HDMI HDCP Retail. </p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="583d917adef1a096b0095e19eaac4c48abc1cfeb5f580cdca4a4f08a9adf81de.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">100-505989 Видеокарта FIREPRO W9100 32GB 100-505989</h5>
+                          <p class="card-text">100-505989 Видеокарта FIREPRO W9100 32GB GDDR5 6-MDP PCIE 3.0 100-505989, 100-505989. </p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="586518e535193942792958_750.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Видеокарта PNY Quadro P6000 (VCQP6000-PB)</h5>
+                          <p class="card-text">Решения Quadro основаны на NVIDIA Pascal, самой мощной архитектуре графических процессоров NVIDIA из когда-либо созданных. Они обеспечивают совершенный уровень. </p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="272818.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Профессиональный ускоритель PNY nVidia Tesla V100 16Gb (TCSV100MPCIE-PB)</h5>
+                          <p class="card-text">профессиональный ускоритель на базе архитектуры Volta, память: 16 Гб HBM2, 5120 ядер CUDA, интерфейс: PCI Express 3.0 x16; операции дв.точности/один.точности/глубокого обучения . </p>
+                          <a href="article.html" class="btn btn-primary">Узнать больше!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-3">
+                  <div class="card">
+                      <img class="card-img-top" src="Без названия.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Профессиональная видеокарта 16Gb (PCI-E) Sapphire FirePro S9150 (GDDR5, 512 bit, Retail)</h5>
+                          <p class="card-text">Тип видеокарты профессиональная Графический процессор AMD FirePro S9150 Интерфейс PCI-E 16x 3.0 Техпроцесс 28 нм. </p>
                           <a href="article.html" class="btn btn-primary">Узнать больше!</a>
                       </div>
                   </div>
@@ -161,7 +234,34 @@
         </div> 
     </main>
     <footer class="footer">
-        
+        <div class="container">
+            <div class="footer-block">
+                <div class="footer-column footer-column_left">
+                    <h6 class="footer-column__header">Информация</h6>
+                    <div class="footer-column__body">
+                        <ul class="footer-group-link">
+                            <li class="footer-group-link__item">
+                                <a href="#" class="footer-group-link__link">О себе</a>
+                            </li>
+                            </li>
+                            <li class="footer-group-link__item">
+                                <a href="#" class="footer-group-link__link">Версия для слабовидящих</a>
+                            </li>
+                            <li class="footer-group-link__item">
+                                <a href="#" class="footer-group-link__link">Настройки</a>
+                            </li>
+                            <li class="footer-group-link__item">
+                                <a href="#" class="footer-group-link__link">Наши спонсоры</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            <div class="footer-block footer-block_last ">
+                <div class="copyright">Все права защищены мной)))</div>
+            </div>
+        </div>
     </footer>
 </body>
 
